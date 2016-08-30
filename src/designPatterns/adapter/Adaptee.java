@@ -1,6 +1,6 @@
 package designPatterns.adapter;
 /**
- * 需要适配的类
+ * 寰呴�傞厤鎺ュ彛
  * @author Linbingfeng
  *
  */

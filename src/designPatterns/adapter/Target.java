@@ -1,7 +1,7 @@
 package designPatterns.adapter;
 
 /**
- * 目标接口
+ * 鐩爣鎺ュ彛
  * @author Linbingfeng
  *
  */

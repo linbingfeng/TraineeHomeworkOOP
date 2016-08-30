@@ -3,7 +3,7 @@ package designPatterns.register;
 import java.util.Map;
 
 /**
- * ע����ģʽ
+ * 注册树模式
  * @author Linbingfeng
  *
  */

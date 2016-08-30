@@ -1,7 +1,7 @@
 package sort;
 
 /**
- * ²åÈëÅÅĞò
+ * æ’å…¥æ³•
  * @author linbingfeng
  *
  */

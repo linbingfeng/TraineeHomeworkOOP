@@ -1,12 +1,12 @@
 package sort;
 
 /**
- * ÅÅĞò³éÏó¸¸Àà
+ * æ’åºæŠ½è±¡çˆ¶ç±»
  * @author Linbingfeng
  *
  */
 public abstract class Sort {
 	
-	//ÊµÏÖÊı×éÅÅĞò
+	//Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public abstract int[] sort(int[] number);
 }

@@ -1,7 +1,7 @@
 package designPatterns.observer;
 
 /**
- * ¾ßÌå¹Û²ìÕß
+ * å…·ä½“è§‚å¯Ÿè€…
  * @author Linbingfeng
  *
  */

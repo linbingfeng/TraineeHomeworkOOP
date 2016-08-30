@@ -1,6 +1,6 @@
 package sort;
 /**
- * Ö±½Ó²åÈë·¨
+ * ç›´æ¥æ’å…¥æ³•
  * @author linbingfeng
  *
  */
@@ -8,13 +8,13 @@ public class DirectInsertSort extends Sort {
 
 	@Override
 	public int[] sort(int[] number) {
-        //Ö±½Ó²åÈëÅÅĞò
+        //Ö±ï¿½Ó²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         for (int i = 1; i < number.length; i++) {
-            //´ı²åÈëÔªËØ
+            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
             int temp = number[i];
             int j;
             for (j = i-1; j>=0; j--) {
-                //½«´óÓÚtempµÄÍùºóÒÆ¶¯Ò»Î»
+                //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tempï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½Ò»Î»
                 if(number[j]>temp){
                     number[j+1] = number[j];
                 }else{

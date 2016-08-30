@@ -1,6 +1,6 @@
 package designPatterns.adapter;
 /**
- * ÊÊÅäÆ÷
+ * é€‚é…å™¨
  * @author Linbingfeng
  *
  */
