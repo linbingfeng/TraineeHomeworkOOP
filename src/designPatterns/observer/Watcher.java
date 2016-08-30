@@ -6,5 +6,5 @@ package designPatterns.observer;
  */
 public interface Watcher {
 	
-	public void update(String str);
+	public void update(String name);
 }

@@ -1,5 +1,6 @@
 package designPatterns.register;
 
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -8,17 +9,17 @@ import java.util.Map;
  *
  */
 public class Register {
-	public static Map<Object,Object> objs;
+	public static Map<String,String> objs = new HashMap<String,String>();
 	
-	public static void set(Object key,Object value) {
+	public static void set(String key,String value) {
 		objs.put(key, value);
 	}
 	
-	public static Object get(Object key) {
+	public static Object get(String key) {
 		return objs.get(key);
 	}
 	
-	public static Object remove(Object key) {
+	public static Object remove(String key) {
 		return objs.remove(key);
 	}
 }

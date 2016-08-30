@@ -26,11 +26,11 @@ public class ConcreteWatched implements Watched {
 	}
 
 	@Override
-	public void notifyWatchers(String str) {
+	public void notifyWatchers(String name) {
 		
         for (Watcher watcher : list)
         {
-            watcher.update(str);
+            watcher.update(name);
         }
 	}
 
