@@ -1,6 +1,6 @@
 package test;
 
-import designPatterns.adapter.Adaptee;
+
 import designPatterns.adapter.Adapter;
 import designPatterns.adapter.Target;
 import designPatterns.observer.ConcreteWatched;
@@ -9,8 +9,12 @@ import designPatterns.observer.Watched;
 import designPatterns.observer.Watcher;
 import designPatterns.register.Factory;
 import designPatterns.register.Register;
-import sun.net.www.content.audio.wav;
 
+/**
+ * 设计模式测试
+ * @author Linbingfeng
+ *
+ */
 public class DesignPatternsTest {
 	
 	public static void main(String[] args) {
@@ -36,7 +40,6 @@ public class DesignPatternsTest {
 	}
 
 	static void testAdapterPattern() {
-		Adaptee adaptee = new Adaptee();
 		Target target = new Adapter();
 		target.request();
 	}
