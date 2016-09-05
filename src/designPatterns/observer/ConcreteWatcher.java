@@ -7,6 +7,7 @@ package designPatterns.observer;
  */
 public class ConcreteWatcher implements Watcher {
 	
+	@SuppressWarnings("unused")
 	private String name; 
 	
 	public ConcreteWatcher(String name) {
